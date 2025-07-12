@@ -1,20 +1,31 @@
 
 body {
-  margin: 0;
-  padding: 2rem;
-  background: #000;
+  background-color: #000;
   color: #fff;
   font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+}
+main {
+  padding: 2rem;
 }
 h1, h2 {
   color: gold;
+  letter-spacing: 0.05em;
+}
+button {
+  background: gold;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+button:hover {
+  background: white;
 }
 a {
-  color: white;
-  margin: 0 1rem;
   text-decoration: none;
-}
-ul {
-  list-style: none;
-  padding-left: 0;
 }

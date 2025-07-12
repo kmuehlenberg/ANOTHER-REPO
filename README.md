@@ -1,15 +1,14 @@
 
-# Valestra.co - Full Next.js Build
+# Valestra UI Refinement Kit
 
-## Features:
-- Luxe Drop page
-- Ambassador portal
-- Product previews
-- Full Next.js app, ready for Vercel
+Includes:
+- Crest logo (SVG)
+- Refined Header component
+- Luxe nav styling
+- Global CSS with black + gold theme
 
-## Deployment:
-1. Upload this folder to GitHub as a repo
-2. Go to Vercel and connect the repo
-3. Vercel will auto-detect Next.js. Use:
-   - Build command: npm run build
-   - Output directory: .next
+Instructions:
+1. Place Header.js in /components
+2. Import and use it in /pages/_app.js or individual pages
+3. Replace global.css to apply refined styling
+4. Ensure /public/valestra-crest.svg is included

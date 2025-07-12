@@ -8,13 +8,9 @@ export default function Home() {
       <Head>
         <title>Valestra | Luxe Gifting</title>
       </Head>
-      <header>
-        <h1>Valestra</h1>
-        <nav>
-          <Link href="/drop">Luxe Drop</Link> | 
-          <Link href="/ambassador">Ambassador</Link>
-        </nav>
-      </header>
+
+      <Header /> {/* ✅ THIS activates your luxe crest/nav */}
+
       <main>
         <h2>Welcome to the Vault</h2>
         <p>Luxury gift bundles. Prestige-only access.</p>
